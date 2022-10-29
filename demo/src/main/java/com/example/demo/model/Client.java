@@ -47,7 +47,12 @@ public class Client {
         return phone;
     }
 
+<<<<<<< HEAD
     public void setPhone(String phone) {
+=======
+    public void setPhone(String phone)
+    {
+>>>>>>> be4c206 (Initial commit)
         this.phone = phone;
     }
 }

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+
 public class ClientController {
 
     private final ClientService clientService;
@@ -32,6 +33,10 @@ public class ClientController {
         return clients != null &&  !clients.isEmpty()
                 ? new ResponseEntity<>(clients, HttpStatus.OK)
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);
+<<<<<<< HEAD
+=======
+
+>>>>>>> be4c206 (Initial commit)
     }
 
     @GetMapping(value = "/clients/{id}")
